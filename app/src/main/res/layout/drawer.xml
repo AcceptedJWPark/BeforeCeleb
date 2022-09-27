@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/icon_address_blue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="지역"
+                        android:textColor="@color/mainTxt"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="서울 강북"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="서울 강남"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="경기 북부·인천"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="경기 남부"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="대구·경북"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="부산·울산·경남"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="충청·대전·세종"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="전라·광주"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="강원"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="제주"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/icon_check_blue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="인허가 날짜"
+                        android:textColor="@color/mainTxt"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="최근 3일"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="최근 1주일"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="최근 1개월"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="최근 3개월"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/icon_explain_blue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="부가정보"
+                        android:textColor="@color/mainTxt"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="주차"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="브런치"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="베이커리"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="애견동반"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="11dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/icon_area_blue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="시설 규모"
+                        android:textColor="@color/mainTxt"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="50평 미만"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="100평 미만"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="200평 미만"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#fff"
+                            android:checked="false"
+                            android:scaleX="0.7"
+                            android:scaleY="0.7"
+                            android:text="200평 이상"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius5dp_mainbgr"
+                android:text="초기화"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius5dp_mainbgr_blue"
+                android:text="검색"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

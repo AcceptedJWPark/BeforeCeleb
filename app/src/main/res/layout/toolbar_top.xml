@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/mainBgr"
+    >
+
+    <ImageView
+        android:id="@+id/lv_logo"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/logo"
+
+        />
+    <TextView
+        android:id="@+id/tv_toolbarTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:text="BeforeCeleb"
+        android:textColor="@color/mainTxt"
+        android:visibility="gone"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/iv_insta"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        android:src="@drawable/icon_insta" />
+
+    <ImageView
+        android:id="@+id/iv_naver"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@id/iv_insta"
+        android:visibility="gone"
+        android:src="@drawable/icon_naver" />
+
+
+    <ImageView
+        android:id="@+id/iv_sort"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:src="@drawable/icon_location" />
+
+
+</RelativeLayout>

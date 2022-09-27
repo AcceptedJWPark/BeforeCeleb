@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BeforeCeleb</string>
+    <string name="google_api_key" translatable="false" templateMergeStrategy="preserve">AIzaSyC6YjhsG26shc8-gnMra8HMtGvVI6ImvHk</string>
+
+</resources>

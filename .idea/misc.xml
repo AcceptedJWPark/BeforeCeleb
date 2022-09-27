@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pjw91/AndroidStudioProjects/BeforeCeleb/app/src/main/res/drawable/radius5dp_mainbgr.xml" value="0.1925" />
+        <entry key="..\:/Users/pjw91/AndroidStudioProjects/BeforeCeleb/app/src/main/res/drawable/radius5dp_mainbgr_blue.xml" value="0.194" />
+        <entry key="..\:/Users/pjw91/AndroidStudioProjects/BeforeCeleb/app/src/main/res/drawable/tabselector_default.xml" value="0.1925" />
+        <entry key="..\:/Users/pjw91/AndroidStudioProjects/BeforeCeleb/app/src/main/res/drawable/tabselector_selected.xml" value="0.1925" />
+        <entry key="..\:/Users/pjw91/AndroidStudioProjects/BeforeCeleb/app/src/main/res/drawable/tabselector_selector.xml" value="0.1925" />
+        <entry key="..\:/Users/pjw91/AndroidStudioProjects/BeforeCeleb/app/src/main/res/layout/activity_detail.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/pjw91/AndroidStudioProjects/BeforeCeleb/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/pjw91/AndroidStudioProjects/BeforeCeleb/app/src/main/res/layout/carouse_child.xml" value="0.2971014492753623" />
+        <entry key="..\:/Users/pjw91/AndroidStudioProjects/BeforeCeleb/app/src/main/res/layout/drawer.xml" value="0.33" />
+        <entry key="..\:/Users/pjw91/AndroidStudioProjects/BeforeCeleb/app/src/main/res/layout/listview_child.xml" value="0.2971014492753623" />
+        <entry key="..\:/Users/pjw91/AndroidStudioProjects/BeforeCeleb/app/src/main/res/layout/listview_footer.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/pjw91/AndroidStudioProjects/BeforeCeleb/app/src/main/res/layout/listview_img.xml" value="0.2971014492753623" />
+        <entry key="..\:/Users/pjw91/AndroidStudioProjects/BeforeCeleb/app/src/main/res/layout/toolbar_top.xml" value="0.2971014492753623" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
